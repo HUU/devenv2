@@ -1,0 +1,6 @@
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+source "${SCRIPTPATH}/zsh"
+source "${SCRIPTPATH}/aliases"
+source "${SCRIPTPATH}/functions"
+source "${SCRIPTPATH}/env"
