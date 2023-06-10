@@ -1,7 +1,7 @@
 setopt share_history
 
-bindkey "[D" backward-word
-bindkey "[C" forward-word
+bindkey -e
+
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
 
