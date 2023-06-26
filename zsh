@@ -1,4 +1,6 @@
 setopt share_history
+HISTSIZE=500000
+SAVEHIST=500000
 
 bindkey -e
 
