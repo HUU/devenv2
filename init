@@ -1,4 +1,4 @@
-SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+SCRIPTPATH="$( builtin cd "$(dirname "$0")" ; pwd -P )"
 
 source "${SCRIPTPATH}/zsh"
 source "${SCRIPTPATH}/aliases"
